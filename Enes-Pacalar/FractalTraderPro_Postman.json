@@ -1,0 +1,104 @@
+{
+	"info": {
+		"name": "Fractal Trader Pro - Enes Paçalar",
+		"description": "Yazılım Mühendisliği Dönem Projesi API Testleri",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. Kullanıcı Yönetimi",
+			"item": [
+				{
+					"name": "1. Kayıt Ol (POST)",
+					"request": {
+						"method": "POST",
+						"header": [{"key": "Content-Type", "value": "application/json"}],
+						"body": {"mode": "raw", "raw": "{\n    \"username\": \"enespacalar\",\n    \"password\": \"Sifre123!\"\n}"},
+						"url": {"raw": "https://fractal-trader-api.onrender.com/api/v1/users/register", "protocol": "https", "host": ["fractal-trader-api", "onrender", "com"], "path": ["api", "v1", "users", "register"]}
+					}
+				},
+				{
+					"name": "2. Giriş Yap (POST)",
+					"request": {
+						"method": "POST",
+						"header": [{"key": "Content-Type", "value": "application/json"}],
+						"body": {"mode": "raw", "raw": "{\n    \"username\": \"enespacalar\",\n    \"password\": \"Sifre123!\"\n}"},
+						"url": {"raw": "https://fractal-trader-api.onrender.com/api/v1/users/login", "protocol": "https", "host": ["fractal-trader-api", "onrender", "com"], "path": ["api", "v1", "users", "login"]}
+					}
+				},
+				{
+					"name": "3. Profil Görüntüle (GET)",
+					"request": {
+						"method": "GET",
+						"header": [{"key": "Authorization", "value": "Bearer enespacalar"}],
+						"url": {"raw": "https://fractal-trader-api.onrender.com/api/v1/users/profile", "protocol": "https", "host": ["fractal-trader-api", "onrender", "com"], "path": ["api", "v1", "users", "profile"]}
+					}
+				},
+				{
+					"name": "4. Şifre Güncelle (PUT)",
+					"request": {
+						"method": "PUT",
+						"header": [{"key": "Content-Type", "value": "application/json"}, {"key": "Authorization", "value": "Bearer enespacalar"}],
+						"body": {"mode": "raw", "raw": "{\n    \"old_password\": \"Sifre123!\",\n    \"new_password\": \"YeniSifre456!\"\n}"},
+						"url": {"raw": "https://fractal-trader-api.onrender.com/api/v1/users/password", "protocol": "https", "host": ["fractal-trader-api", "onrender", "com"], "path": ["api", "v1", "users", "password"]}
+					}
+				},
+				{
+					"name": "5. Hesap Sil (DELETE)",
+					"request": {
+						"method": "DELETE",
+						"header": [{"key": "Authorization", "value": "Bearer enespacalar"}],
+						"url": {"raw": "https://fractal-trader-api.onrender.com/api/v1/users/account", "protocol": "https", "host": ["fractal-trader-api", "onrender", "com"], "path": ["api", "v1", "users", "account"]}
+					}
+				}
+			]
+		},
+		{
+			"name": "2. Analiz ve Simülasyon",
+			"item": [
+				{
+					"name": "6. Analiz Başlat (POST)",
+					"request": {
+						"method": "POST",
+						"header": [{"key": "Content-Type", "value": "application/json"}, {"key": "Authorization", "value": "Bearer enespacalar"}],
+						"body": {"mode": "raw", "raw": "{\n    \"symbol\": \"BTC-USD\",\n    \"window_size\": 30\n}"},
+						"url": {"raw": "https://fractal-trader-api.onrender.com/api/v1/analysis/start", "protocol": "https", "host": ["fractal-trader-api", "onrender", "com"], "path": ["api", "v1", "analysis", "start"]}
+					}
+				},
+				{
+					"name": "7. Geçmiş Analizleri Listele (GET)",
+					"request": {
+						"method": "GET",
+						"header": [{"key": "Authorization", "value": "Bearer enespacalar"}],
+						"url": {"raw": "https://fractal-trader-api.onrender.com/api/v1/analysis/list", "protocol": "https", "host": ["fractal-trader-api", "onrender", "com"], "path": ["api", "v1", "analysis", "list"]}
+					}
+				},
+				{
+					"name": "8. Analiz Detayı Görüntüle (GET)",
+					"request": {
+						"method": "GET",
+						"header": [{"key": "Authorization", "value": "Bearer enespacalar"}],
+						"url": {"raw": "https://fractal-trader-api.onrender.com/api/v1/analysis/detail/1", "protocol": "https", "host": ["fractal-trader-api", "onrender", "com"], "path": ["api", "v1", "analysis", "detail", "1"]}
+					}
+				},
+				{
+					"name": "9. Analize Not Ekle (PUT)",
+					"request": {
+						"method": "PUT",
+						"header": [{"key": "Content-Type", "value": "application/json"}, {"key": "Authorization", "value": "Bearer enespacalar"}],
+						"body": {"mode": "raw", "raw": "{\n    \"note\": \"Bu destek kırılırsa 60k bandı test edilebilir.\"\n}"},
+						"url": {"raw": "https://fractal-trader-api.onrender.com/api/v1/analysis/note/1", "protocol": "https", "host": ["fractal-trader-api", "onrender", "com"], "path": ["api", "v1", "analysis", "note", "1"]}
+					}
+				},
+				{
+					"name": "10. Analiz Sil (DELETE)",
+					"request": {
+						"method": "DELETE",
+						"header": [{"key": "Authorization", "value": "Bearer enespacalar"}],
+						"url": {"raw": "https://fractal-trader-api.onrender.com/api/v1/analysis/remove/1", "protocol": "https", "host": ["fractal-trader-api", "onrender", "com"], "path": ["api", "v1", "analysis", "remove", "1"]}
+					}
+				}
+			]
+		}
+	]
+}
