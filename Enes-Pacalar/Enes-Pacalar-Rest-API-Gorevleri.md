@@ -1,4 +1,8 @@
 # Enes Paçalar - REST API Görevleri
+# **3. Aşama (REST API) Test Videom:** [Videoyu İzlemek İçin Tıklayın]
+# https://youtu.be/7rBEMogp2TY
+# **API Domain Adresi:** https://fractal-trader-api.onrender.com
+
 
 **Proje:** Fractal Trader Pro
 **Sorumlu:** Enes Paçalar
