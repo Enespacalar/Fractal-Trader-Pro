@@ -1,8 +1,8 @@
 # Enes Paçalar - REST API Görevleri
 # **3. Aşama (REST API) Test Videom:** [Videoyu İzlemek İçin Tıklayın]
 # https://youtu.be/7rBEMogp2TY
-# **API Temel Domain Adresi:** https://fractal-trader-api.onrender.com
-# **Swagger API Dokümantasyonu (Canlı Test Arayüzü):** https://fractal-trader-api.onrender.com/docs
+# **API Domain Adresi:** https://fractal-trader-api.onrender.com
+
 
 
 **Proje:** Fractal Trader Pro
