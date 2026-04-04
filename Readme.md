@@ -16,8 +16,8 @@
 
 ## Proje Linkleri
 
-- **REST API Adresi (Swagger UI):** [http://localhost:8000/docs](http://localhost:8000/docs)
-- **Web Frontend Adresi:** (Bu projede odak noktası Backend/API mimarisidir, kullanıcı arayüzü testleri FastAPI'nin sunduğu otomatik Swagger UI üzerinden gerçekleştirilmektedir.)
+- ## **REST API Adresi (Swagger UI):** https://fractal-trader-api.onrender.com
+- ## **Web Frontend Adresi:** https://fractal-frontend-six.vercel.app/
 
 ---
 
@@ -31,11 +31,22 @@
 
 ## Dokümantasyon
 
-Projenin teknik dokümantasyonuna ve görev dağılımlarına aşağıdaki linklerden erişebilirsiniz:
-
+## 📂 Teslim Dokümanlarım (Detaylar İçin Tıklayın)
 1. [Gereksinim Analizi](Gereksinim-Analizi.md)
 2. [REST API Tasarımı (OpenAPI)](API-Tasarimi.md)
-3. [Enes Paçalar - Gereksinim Listesi](Enes-Pacalar/Enes-Pacalar-Gereksinimler.md)
-4. [Enes Paçalar - REST API Görevleri](Enes-Pacalar/Enes-Pacalar-Rest-API-Gorevleri.md)
+3. 📄 [Enes Paçalar - REST API Görevleri ve Video](Enes-Pacalar/Enes-Pacalar-Rest-API-Gorevleri.md)
+3. 📄 [Enes Paçalar - Web Frontend Görevleri ve Video](Enes-Pacalar/Enes-Pacalar-Web-Frontend.md)
+---
 
-*(Not: Bu proje sadece Backend API mimarisi üzerine kurgulandığı için Web/Mobil Front-End dosyaları boş bırakılmıştır.)*
+# 🚀 Fractal Trader Pro - Proje Teslim Dosyaları
+
+**Öğrenci:** Enes Paçalar
+**Öğrenci No:** 2121032734
+
+## 📂 Teslim Dokümanlarım (Detaylar İçin Tıklayın)
+1. 📄 [Enes Paçalar - Gereksinim Listesi](Enes-Pacalar/Enes-Pacalar-Gereksinimler.md)
+2. 📄 [Enes Paçalar - REST API Görevleri ve Video](Enes-Pacalar/Enes-Pacalar-Rest-API-Gorevleri.md)
+3. 📄 [Enes Paçalar - Web Frontend Görevleri ve Video](Enes-Pacalar/Enes-Pacalar-Web-Frontend.md)
+
+
+---
