@@ -36,9 +36,9 @@
 **Öğrenci No:** 2121032734
 
 ## 📂 Teslim Dokümanlarım (Detaylar İçin Tıklayın)
-1. [Gereksinim Analizi](Gereksinim-Analizi.md)
+1. 📄 [Gereksinim Analizi](Gereksinim-Analizi.md)
 2. 📄 [Enes Paçalar - REST API Görevleri ve Video](Enes-Pacalar/Enes-Pacalar-Rest-API-Gorevleri.md)
-3. 📄 [Enes Paçalar - Web Frontend Görevleri ve Video](Enes-Pacalar-Web-Frontend-Gorevleri.md)
+3. 📄 [Enes Paçalar - Web Frontend Görevleri ve Video](Enes-Pacalar/Enes-Pacalar-Web-Frontend-Gorevleri.md)
 
 
 
