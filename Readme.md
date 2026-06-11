@@ -39,6 +39,8 @@
 1. 📄 [Gereksinim Analizi](Gereksinim-Analizi.md)
 2. 📄 [Enes Paçalar - REST API Görevleri ve Video](Enes-Pacalar/Enes-Pacalar-Rest-API-Gorevleri.md)
 3. 📄 [Enes Paçalar - Web Frontend Görevleri ve Video](Enes-Pacalar/Enes-Pacalar-Web-Frontend-Gorevleri.md)
+4. 📄 [Enes Paçalar - Mobil Frontend Görevleri ve Video](mobil-frontend.md)
+5. 📄 [Enes Paçalar - Mobil Backend Görevleri ve Video](mobil-backend.md)
 
 
 
