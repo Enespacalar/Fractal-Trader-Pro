@@ -18,6 +18,7 @@
 
 - ## **REST API Adresi (Swagger UI):** https://fractal-trader-api.onrender.com
 - ## **Web Frontend Adresi:** https://fractal-frontend-six.vercel.app/
+- ## **Mobil Test Ve Tanıtım Videosu : https://youtube.com/shorts/Wtehps86H9Y
 
 ---
 
